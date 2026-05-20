@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>882_uh60v_modkit</kitName>
+      <id value="882" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+       <Item>
+          <modelName>mh60_outriggers</modelName>
+          <modShopLabel>WT_OUTRIG</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_a</Item>
+          </turnOffBones>
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_3</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="500" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60j_outriggers</modelName>
+          <modShopLabel>WT_JOUTRIGGERS</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_4</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="500" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60s_weapons</modelName>
+          <modShopLabel>WT_MH60SWEPS</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_outriggers2</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_a</Item>
+          </turnOffBones>
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_4</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="500" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="1" />
+		 </Item>
+		 <Item>
+          <modelName>mh60_weapons</modelName>
+          <modShopLabel>WT_MH60WEPS</modShopLabel>
+          <linkedModels>
+		    		<Item>mh60_outriggers2</Item>
+					<Item>mh60_ammobox</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_a</Item>
+          </turnOffBones>
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_4</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="500" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="2" />
+		  <weaponSlotSecondary value="3" />
+		 </Item>
+		<Item>
+          <modelName>ah60_kit</modelName>
+          <modShopLabel>WT_AH60</modShopLabel>
+          <linkedModels>
+		    		<Item>ah60_weapons</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_1</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="1" />
+		  <weaponSlotSecondary value="0" />
+        </Item>
+		<Item>
+          <modelName>hh60_kit</modelName>
+          <modShopLabel>WT_HH60G</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+					<Item>uh60_refuel</Item>
+					<Item>uh60_refuele</Item>
+					<Item>hh60g_nose</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_kit</modelName>
+          <modShopLabel>WT_MH60</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+					<Item>uh60_flares</Item>
+					<Item>mh60_antenna</Item>
+					<Item>mh60_ewr</Item>
+					<Item>uh60_nose_alt2</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_n</Item>
+					<Item>mod_r</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60_kit</modelName>
+          <modShopLabel>WT_MH60REF</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+					<Item>uh60_flares</Item>
+					<Item>mh60_antenna</Item>
+					<Item>mh60_ewr</Item>
+					<Item>uh60_nose_alt2</Item>
+					<Item>uh60_refuel</Item>
+					<Item>uh60_refuele</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_n</Item>
+					<Item>mod_r</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60s_kit</modelName>
+          <modShopLabel>WT_MH60S</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60k_kit</modelName>
+          <modShopLabel>WT_MH60K</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+					<Item>uh60_flares</Item>
+					<Item>mh60_antenna</Item>
+					<Item>uh60_nose_alt2</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>mh60k_kit</modelName>
+          <modShopLabel>WT_MH60KREF</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+					<Item>uh60_flares</Item>
+					<Item>mh60_antenna</Item>
+					<Item>uh60_nose_alt2</Item>
+					<Item>uh60_refuel</Item>
+					<Item>uh60_refuele</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_n</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60j_kit</modelName>
+          <modShopLabel>WT_uh60j</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60j_kit</modelName>
+          <modShopLabel>WT_uh60jref</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+					<Item>uh60_refuel</Item>
+					<Item>uh60_refuele</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>mod_col_2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60q_kit</modelName>
+          <modShopLabel>WT_uh60q</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_winch</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_d</Item>
+					<Item>mod_e</Item>
+					<Item>mod_i</Item>
+					<Item>mod_j</Item>
+					<Item>mod_s</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_winch</modelName>
+          <modShopLabel>WT_WINCH</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_SPOILER</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_internaltank</modelName>
+          <modShopLabel>WT_INTTANK</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_s</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_ropeattach</modelName>
+          <modShopLabel>WT_ROPEAT</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_ropeattach</modelName>
+          <modShopLabel>WT_INTROPE</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_internaltank</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_s</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <!--Item>
+          <modelName>uh60_interiorlight</modelName>
+          <modShopLabel>WT_INTLIGHT</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>mod_l</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item-->
+		 <Item>
+          <modelName>uh60_doorframe_l</modelName>
+          <modShopLabel>WT_DOORFRAME</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_doorframe_r</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>mod_f</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_ski_l</modelName>
+          <modShopLabel>WT_UH60SKI</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_ski_r</Item>
+					<Item>uh60_ski_rr</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_WING_L</type>
+          <bone>mod_x</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_crewdoors</modelName>
+          <modShopLabel>WT_CREWOPEN</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_d</Item>
+          </turnOffBones>
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_m134</modelName>
+          <modShopLabel>WT_CREW134</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_crewdoors</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_d</Item>
+          </turnOffBones>
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_50cal</modelName>
+          <modShopLabel>WT_CREW50CAL</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_50cal</modelName>
+          <modShopLabel>WT_CREW50OPEN</modShopLabel>
+          <linkedModels>
+		    		<Item>uh60_crewdoors</Item>
+          </linkedModels>
+          <turnOffBones>
+		    		<Item>mod_d</Item>
+          </turnOffBones>
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_flares</modelName>
+          <modShopLabel>WT_UHFLARE</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_CHASSIS</type>
+          <bone>mod_v</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="4" />
+		 </Item>
+		 <Item>
+          <modelName>uh60_stab2</modelName>
+          <modShopLabel>WT_ALTSTAB</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_c</Item>
+          </turnOffBones>
+          <type>VMT_BONNET</type>
+          <bone>mod_k</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>uh60_ues</modelName>
+          <modShopLabel>WT_UHUES</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+		    		<Item>mod_b</Item>
+          </turnOffBones>
+          <type>VMT_WING_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+      </visibleMods>
+	  <linkMods>
+		<Item>
+          <modelName>uh60_nose_alt</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_nose_alt2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>hh60g_nose</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_refuel</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_winch</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_doorframe_r</modelName>
+          <bone>mod_g</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_internaltank</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_ammobox</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60k_kit</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_outriggers</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_outriggers2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_weapons</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>ah60_weapons</modelName>
+          <bone>mod_w</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_ewr</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60_antenna</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_flares</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_50cal</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_ski_r</modelName>
+          <bone>mod_y</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_ski_rr</modelName>
+          <bone>mod_z</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_refuele</modelName>
+          <bone>mod_q</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_crewdoors</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60_m134</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>mh60s_weapons</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>uh60j_outriggers</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>WT_UHFLARE</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_UH60INTERIOR</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>WT_UH60DOORS</name>
+        </Item>
+		<Item>
+          <slot>VMT_SPOILER</slot>
+          <name>WT_UH60KIT</name>
+        </Item>
+		<Item>
+          <slot>VMT_WING_L</slot>
+          <name>WT_UH60SKI</name>
+        </Item>
+		<Item>
+          <slot>VMT_WING_R</slot>
+          <name>WT_UHUES</name>
+        </Item>
+		<Item>
+          <slot>VMT_SKIRT</slot>
+          <name>WT_UH60CREW</name>
+        </Item>
+		<Item>
+          <slot>VMT_ROOF</slot>
+          <name>WT_UH60WING</name>
+        </Item>
+		<Item>
+          <slot>VMT_BONNET</slot>
+          <name>WT_ALTSTAB</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>WT_UHFLARE</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>WT_UH60INTERIOR</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>WT_UH60DOORS</name>
+        </Item>
+		<Item>
+          <slot>VMT_SPOILER</slot>
+          <name>WT_UH60KIT</name>
+        </Item>
+		<Item>
+          <slot>VMT_WING_L</slot>
+          <name>WT_UH60SKI</name>
+        </Item>
+		<Item>
+          <slot>VMT_WING_R</slot>
+          <name>WT_UHUES</name>
+        </Item>
+		<Item>
+          <slot>VMT_SKIRT</slot>
+          <name>WT_UH60CREW</name>
+        </Item>
+		<Item>
+          <slot>VMT_ROOF</slot>
+          <name>WT_UH60WING</name>
+        </Item>
+		<Item>
+          <slot>VMT_BONNET</slot>
+          <name>WT_ALTSTAB</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>
